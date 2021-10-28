@@ -1,0 +1,29 @@
+Automation:-
+1)To know the steps involved in AI project Life Cycle :
+
+print("Steps involved in AI project Life Cycle")
+step = input("Step number- ")
+if(step == '1'):
+    print("Step 1: Problem Scoping-")
+    print("Problem Scoping is the first step of an AI project life cycle. In this step,
+you have to write about the nature and boundaries of a problem. In simple words, it is a
+process by which a problem is defined.")
+
+elif(step == '2'):
+    print("Step 2: Data Acquision-")
+    print("Data Acquision or Data Gathering refers to a process of idenfying and gathering all data required for an AI project.")
+
+elif(step == '3'):
+    print("Step 3: Data Exploration-")
+    print("Data Exploration refers to a process of understanding the nature of the data you have to work with, in terms of quality, characteristics, etc. This step provides you a better understanding of data resulting in an effective end product.")
+
+elif(step == '4'):
+    print("Step 4: Modelling-")
+    print("An appropriate analysis of collected data is an essential requirement for modelling data. In this step, you can select the datasets which match your requirements and train the model using appropriate machine-learning algorithms or AI-enable algorithms.")
+
+elif(step == '5'):
+    print("Step 5: Evaluation-")
+    print("Deployment is the last step of the AI project life cycle. But, before deploying any AI-enabled system, proper evaluation of a trained model is necessary as it determines the accuracy of the model according to the project requirements.")
+
+if(step >= '6'):
+    print("There are involved in AI project Life Cycle.")
